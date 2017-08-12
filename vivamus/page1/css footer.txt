@@ -1,0 +1,25 @@
+/*footer.first_footer{
+    width: 100%;
+    background-color: #c1c1c1;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer_circle{
+    border-radius: 50px;
+    border: solid 5px white;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    float: left;
+}
+ul.list_footer{
+    list-style: none;
+    display: flex;
+    margin-left: 30%;
+
+}
+.footer_circle-con{
+    margin-top: 15px;
+    display: inline-block;
+}*/

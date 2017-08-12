@@ -1,0 +1,109 @@
+  section.first_sec{
+        text-align: center;
+    }
+    div.page1_paragraph{
+        color: #2CA8C8;
+        font-family: Calibri;
+    }
+    div.first_paragraph{
+        font-size: 70px;
+
+    }
+    div.second_paragraph{
+        font-size: 45px;
+    }
+    form{
+        margin: auto;
+        width: 70%;
+    }
+
+    div.line {
+        border: solid 1px #c1c1c1;
+        width: 75%;
+        margin: auto;
+    }
+
+    div.steps ul{
+        display: flex;
+        list-style: none;
+    }
+
+    div.steps ul li{
+        width: 100%;
+    }
+    .step1{
+        background-color: #2CA8C8;
+    }
+
+    .step2{
+        align-items: center;
+        display: grid !important;
+        margin: auto;
+        background-color: white;
+    }
+
+    .step3{
+        align-items: center;
+        display: grid !important;
+        float: right;
+        background-color: white;
+    }
+    div.steps ul li span{
+        border: solid 5px #c1c1c1;
+        border-radius: 50%;
+        display: table-cell;
+        height:80px;
+        vertical-align: middle;
+        width: 80px;
+    }
+    div.line_circle{
+
+        position: absolute;
+        display: grid;
+        top: 37px;
+        left: 74px;
+        right: 31px;
+        bottom: 0;
+        z-index: -1;
+    }
+    div.steps{
+        position: relative;
+        z-index: 1;
+    }
+    div.line_between{
+        background-color: #c1c1c1;
+        height: 10px;
+    }
+    fieldset.info_boutU{
+        background-color: #c1c1c1;
+        border-radius: 20px;
+        border: none;
+        text-align: left;
+        color: #2CA8C8;
+    }
+    header.about_you{
+        font-size: 25px;
+    }
+    fieldset.info_boutU input{
+        width: 100%;
+        border-radius: 6px;
+    }
+    div.info_field{
+        display: flex;
+    }
+    div.info_field label{
+        width: 100%
+    }
+    label.first_name{
+        padding-right: 50px;
+    }
+    button.next{
+        margin-top: 1%;
+        margin-left: 85%;
+        width: 15%;
+        border-radius: 7px;
+        height: 40px;
+        color: white;
+        background-color: #2CA8C8;
+        border: none;
+    }

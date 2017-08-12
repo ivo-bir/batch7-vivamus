@@ -1,0 +1,25 @@
+<!--<footer class="first_footer">
+    <div class="footer_circle-con">
+        <div class="footer_circle"></div>
+        <div class="footer_circle"></div>
+        <div class="footer_circle"></div>
+        <div class="footer_circle"></div>
+        <div class="footer_circle"></div>
+    </div>
+    <ul class = list_footer>
+        <li>Pellentesque &nbsp;</li>
+        <li> | &nbsp;</li>
+        <li>Et interdum &nbsp;</li>
+        <li> | &nbsp;</li>
+        <li>Neque &nbsp;</li>
+        <li> | &nbsp;</li>
+        <li>Integer &nbsp;</li>
+        <li> | &nbsp;</li>
+        <li>Ullamcorper &nbsp;</li>
+        <li> | &nbsp;</li>
+        <li>Sagittis</li>
+    </ul>
+    <p>Copyright &#169; 2015 Proin eget ipsum libero<br>
+        All rights Reserved
+    </p>
+</footer>-->

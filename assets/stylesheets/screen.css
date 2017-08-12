@@ -1,0 +1,553 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/screen.scss */
+body {
+  margin: 0;
+}
+/* line 2, ../sass/_header.scss */
+body header#first_header {
+  background-color: #2CA8C8;
+  width: 100%;
+}
+/* line 5, ../sass/_header.scss */
+body header#first_header .container {
+  display: block;
+  overflow: auto;
+  padding: 50px 0;
+}
+/* line 10, ../sass/_header.scss */
+body header#first_header .container #header_logo {
+  float: left;
+  width: 360px;
+  margin-left: 5%;
+}
+/* line 15, ../sass/_header.scss */
+body header#first_header .container #list_header {
+  float: left;
+  margin-top: 1%;
+}
+/* line 18, ../sass/_header.scss */
+body header#first_header .container #list_header ul {
+  display: flex;
+  list-style: none;
+}
+/* line 21, ../sass/_header.scss */
+body header#first_header .container #list_header ul li {
+  font-size: 30px;
+  color: #fff;
+}
+/* line 27, ../sass/_header.scss */
+body header#first_header .container #pic_magnify {
+  float: right;
+  position: relative;
+  margin-right: 20%;
+  margin-top: 2%;
+}
+/* line 33, ../sass/_header.scss */
+body header#first_header .container #pic_magnify #search #search_photo {
+  width: 26px;
+  position: absolute;
+  right: 9px;
+  top: 8px;
+}
+/* line 39, ../sass/_header.scss */
+body header#first_header .container #pic_magnify #search #search_logo {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  height: 33px;
+  width: 210px;
+}
+/* line 3, ../sass/_section_content1.scss */
+body .container .first_sec {
+  text-align: center;
+}
+/* line 5, ../sass/_section_content1.scss */
+body .container .first_sec .page1_paragraph {
+  color: #2CA8C8;
+  font-family: Calibri;
+}
+/* line 8, ../sass/_section_content1.scss */
+body .container .first_sec .page1_paragraph .first_paragraph {
+  font-size: 65px;
+}
+/* line 11, ../sass/_section_content1.scss */
+body .container .first_sec .page1_paragraph .second_paragraph {
+  font-size: 40px;
+}
+/* line 15, ../sass/_section_content1.scss */
+body .container .first_sec .line {
+  border: solid 1px #eaeaea;
+  width: 75%;
+  margin: auto;
+}
+/* line 20, ../sass/_section_content1.scss */
+body .container .first_sec form {
+  margin: auto;
+  width: 70%;
+}
+/* line 23, ../sass/_section_content1.scss */
+body .container .first_sec form .steps {
+  position: relative;
+  z-index: 1;
+}
+/* line 26, ../sass/_section_content1.scss */
+body .container .first_sec form .steps ul {
+  display: flex;
+  list-style: none;
+}
+/* line 29, ../sass/_section_content1.scss */
+body .container .first_sec form .steps ul li {
+  width: 100%;
+}
+/* line 31, ../sass/_section_content1.scss */
+body .container .first_sec form .steps ul li span {
+  border: solid 10px #c1c1c1;
+  border-radius: 50%;
+  display: grid;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+}
+/* line 39, ../sass/_section_content1.scss */
+body .container .first_sec form .steps ul li span.step1 {
+  background-color: #2CA8C8;
+}
+/* line 43, ../sass/_section_content1.scss */
+body .container .first_sec form .steps ul li span.step2 {
+  margin: auto;
+  background-color: white;
+}
+/* line 47, ../sass/_section_content1.scss */
+body .container .first_sec form .steps ul li span.step3 {
+  float: right;
+  background-color: white;
+}
+/* line 54, ../sass/_section_content1.scss */
+body .container .first_sec form .steps .line_circle {
+  position: absolute;
+  display: grid;
+  top: 37px;
+  left: 74px;
+  right: 31px;
+  bottom: 0;
+  z-index: -1;
+}
+/* line 62, ../sass/_section_content1.scss */
+body .container .first_sec form .steps .line_circle .line_between {
+  background-color: #c1c1c1;
+  height: 10px;
+}
+/* line 69, ../sass/_section_content1.scss */
+body .container .first_sec form div .info_boutU {
+  background-color: #eaeaea;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+  color: #2CA8C8;
+}
+/* line 75, ../sass/_section_content1.scss */
+body .container .first_sec form div .info_boutU input {
+  width: 100%;
+  border-radius: 6px;
+  height: 45px;
+  border: none;
+}
+/* line 81, ../sass/_section_content1.scss */
+body .container .first_sec form div .info_boutU .about_you {
+  font-size: 25px;
+}
+/* line 84, ../sass/_section_content1.scss */
+body .container .first_sec form div .info_boutU div {
+  margin: 1%;
+}
+/* line 86, ../sass/_section_content1.scss */
+body .container .first_sec form div .info_boutU div .info_field {
+  display: flex;
+}
+/* line 88, ../sass/_section_content1.scss */
+body .container .first_sec form div .info_boutU div .info_field label {
+  width: 100%;
+}
+/* line 91, ../sass/_section_content1.scss */
+body .container .first_sec form div .info_boutU div .info_field .first_name {
+  padding-right: 50px;
+}
+/* line 97, ../sass/_section_content1.scss */
+body .container .first_sec form div .next {
+  margin-top: 1%;
+  margin-left: 85%;
+  width: 15%;
+  border-radius: 7px;
+  height: 40px;
+  color: white;
+  background-color: #2CA8C8;
+  border: none;
+}
+/* line 2, ../sass/_section_content2.scss */
+body .second_sec {
+  text-align: center;
+}
+/* line 4, ../sass/_section_content2.scss */
+body .second_sec .page2_paragraph {
+  color: #2CA8C8;
+  font-family: Calibri;
+}
+/* line 7, ../sass/_section_content2.scss */
+body .second_sec .page2_paragraph .page2_paragraph1 {
+  font-size: 65px;
+}
+/* line 10, ../sass/_section_content2.scss */
+body .second_sec .page2_paragraph .page2_paragraph2 {
+  font-size: 40px;
+}
+/* line 14, ../sass/_section_content2.scss */
+body .second_sec .line2 {
+  border: solid 1px #eaeaea;
+  width: 75%;
+  margin: auto;
+}
+/* line 19, ../sass/_section_content2.scss */
+body .second_sec .page2 {
+  margin: auto;
+  width: 70%;
+}
+/* line 22, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps {
+  position: relative;
+  z-index: 1;
+}
+/* line 25, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps ul {
+  display: flex;
+  list-style: none;
+}
+/* line 28, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps ul li {
+  width: 100%;
+}
+/* line 30, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps ul li span {
+  border: solid 10px #c1c1c1;
+  border-radius: 50%;
+  display: grid;
+  height: 80px;
+  align-items: center;
+  width: 80px;
+}
+/* line 38, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps ul li span.p2_step1 {
+  background-color: white;
+}
+/* line 42, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps ul li span.p2_step2 {
+  margin: auto;
+  background-color: #2CA8C8;
+}
+/* line 46, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps ul li span.p2_step3 {
+  float: right;
+  background-color: white;
+}
+/* line 53, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps .line2_circle {
+  position: absolute;
+  display: grid;
+  top: 37px;
+  left: 74px;
+  right: 31px;
+  bottom: 0;
+  z-index: -1;
+}
+/* line 61, ../sass/_section_content2.scss */
+body .second_sec .page2 .p2_steps .line2_circle .line2_between {
+  background-color: #c1c1c1;
+  height: 10px;
+}
+/* line 67, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form {
+  background-color: #eaeaea;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+  color: #2CA8C8;
+  font-size: 20px;
+}
+/* line 74, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form input {
+  border-radius: 6px;
+  background-color: #eaeaea;
+}
+/* line 78, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .your_donation {
+  font-size: 25px;
+}
+/* line 81, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .field_border {
+  border-radius: 5px;
+  background-color: white;
+  margin: 1%;
+}
+/* line 86, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .card_choice {
+  display: flex;
+}
+/* line 88, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .card_choice button {
+  width: 100%;
+  height: 60px;
+  border: none;
+}
+/* line 93, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .card_choice button.payPal {
+  color: white;
+  background-color: #2CA8C8;
+}
+/* line 97, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .card_choice button.creditCard {
+  color: #2CA8C8;
+  background-color: white;
+}
+/* line 102, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field {
+  margin: 2%;
+}
+/* line 104, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field input {
+  height: 45px;
+}
+/* line 107, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field input.align1 {
+  width: 50%;
+  border: none;
+}
+/* line 111, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field input.align2 {
+  width: 100%;
+  border: none;
+}
+/* line 115, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field .card_position {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+/* line 119, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field .card_position .card-detail {
+  width: 100%;
+  margin-bottom: 2%;
+}
+/* line 122, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field .card_position .card-detail input {
+  width: 100%;
+}
+/* line 126, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field .card_position .card_logo {
+  width: 100%;
+}
+/* line 128, ../sass/_section_content2.scss */
+body .second_sec .page2 .page2_form .donation_field .card_position .card_logo img {
+  float: right;
+}
+/* line 137, ../sass/_section_content2.scss */
+body .second_sec .page2 .button_choice {
+  display: flex;
+}
+/* line 139, ../sass/_section_content2.scss */
+body .second_sec .page2 .button_choice div {
+  width: 100%;
+}
+/* line 142, ../sass/_section_content2.scss */
+body .second_sec .page2 .button_choice .pull-left {
+  float: left;
+}
+/* line 145, ../sass/_section_content2.scss */
+body .second_sec .page2 .button_choice .pull-right {
+  float: right;
+}
+/* line 148, ../sass/_section_content2.scss */
+body .second_sec .page2 .button_choice button {
+  margin-top: 1%;
+  width: 30%;
+  border-radius: 7px;
+  height: 45px;
+  color: white;
+  background-color: #2CA8C8;
+  border: none;
+}
+/* line 2, ../sass/_section_content3.scss */
+body .third_sec {
+  text-align: center;
+}
+/* line 4, ../sass/_section_content3.scss */
+body .third_sec .page3_paragraph {
+  color: #2CA8C8;
+  font-family: Calibri;
+}
+/* line 7, ../sass/_section_content3.scss */
+body .third_sec .page3_paragraph .page3_paragraph1 {
+  font-size: 65px;
+}
+/* line 10, ../sass/_section_content3.scss */
+body .third_sec .page3_paragraph .page3_paragraph2 {
+  font-size: 40px;
+}
+/* line 14, ../sass/_section_content3.scss */
+body .third_sec .line3 {
+  border: solid 1px #eaeaea;
+  width: 75%;
+  margin: auto;
+}
+/* line 19, ../sass/_section_content3.scss */
+body .third_sec .page3 {
+  margin: auto;
+  width: 70%;
+}
+/* line 22, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps {
+  position: relative;
+  z-index: 1;
+}
+/* line 25, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps ul {
+  display: flex;
+  list-style: none;
+}
+/* line 28, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps ul li {
+  width: 100%;
+}
+/* line 30, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps ul li span {
+  border: solid 10px #c1c1c1;
+  border-radius: 50%;
+  display: grid;
+  height: 80px;
+  align-items: center;
+  width: 80px;
+}
+/* line 38, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps ul li span.p3_step1 {
+  background-color: white;
+}
+/* line 42, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps ul li span.p3_step2 {
+  margin: auto;
+  background-color: white;
+}
+/* line 46, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps ul li span.p3_step3 {
+  float: right;
+  background-color: #2CA8C8;
+}
+/* line 53, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps .line3_circle {
+  position: absolute;
+  display: grid;
+  top: 37px;
+  left: 74px;
+  right: 31px;
+  bottom: 0;
+  z-index: -1;
+}
+/* line 61, ../sass/_section_content3.scss */
+body .third_sec .page3 .p3_steps .line3_circle .line3_between {
+  background-color: #c1c1c1;
+  height: 10px;
+}
+/* line 67, ../sass/_section_content3.scss */
+body .third_sec .page3 .page3_form {
+  background-color: #eaeaea;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+  color: #2CA8C8;
+  font-size: 20px;
+}
+/* line 74, ../sass/_section_content3.scss */
+body .third_sec .page3 .page3_form .comment_field {
+  font-size: 25px;
+}
+/* line 77, ../sass/_section_content3.scss */
+body .third_sec .page3 .page3_form #border3 {
+  margin: 2%;
+}
+/* line 80, ../sass/_section_content3.scss */
+body .third_sec .page3 .page3_form #border3 .your_message textarea#text_input {
+  border-radius: 6px;
+  background-color: white;
+  width: 100%;
+  height: 190px;
+  resize: none;
+  border: none;
+}
+/* line 89, ../sass/_section_content3.scss */
+body .third_sec .page3 .page3_form #border3 #align_check {
+  display: flex;
+}
+/* line 91, ../sass/_section_content3.scss */
+body .third_sec .page3 .page3_form #border3 #align_check #check input {
+  height: 20px;
+  width: 20px;
+}
+/* line 98, ../sass/_section_content3.scss */
+body .third_sec .page3 .button_choice3 {
+  display: flex;
+}
+/* line 100, ../sass/_section_content3.scss */
+body .third_sec .page3 .button_choice3 div {
+  width: 100%;
+}
+/* line 103, ../sass/_section_content3.scss */
+body .third_sec .page3 .button_choice3 button {
+  margin-top: 2%;
+  margin-bottom: 4%;
+  width: 30%;
+  border-radius: 7px;
+  height: 45px;
+  color: white;
+  background-color: #2CA8C8;
+  border: none;
+}
+/* line 113, ../sass/_section_content3.scss */
+body .third_sec .page3 .button_choice3 .pull-left {
+  float: left;
+}
+/* line 116, ../sass/_section_content3.scss */
+body .third_sec .page3 .button_choice3 .pull-right {
+  float: right;
+}
+/* line 2, ../sass/_footer.scss */
+body .first_footer {
+  width: 100%;
+  background-color: #c1c1c1;
+  text-align: center;
+  margin-top: 30px;
+}
+/* line 8, ../sass/_footer.scss */
+body .first_footer .container .footer_circle-con {
+  margin-top: 15px;
+  display: inline-block;
+}
+/* line 11, ../sass/_footer.scss */
+body .first_footer .container .footer_circle-con .footer_circle {
+  border-radius: 50px;
+  border: solid 5px white;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  float: left;
+}
+/* line 21, ../sass/_footer.scss */
+body .first_footer .container #list_foot {
+  margin: auto;
+  width: 572px;
+}
+/* line 24, ../sass/_footer.scss */
+body .first_footer .container #list_foot .list_footer {
+  list-style: none;
+  display: flex;
+}

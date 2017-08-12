@@ -1,0 +1,70 @@
+
+    <section class="second_sec">
+        <div class="page2_paragraph">
+            <div class = "page2_paragraph1"><b>Vivamus interdum nunc ac sem fringilla</b></div>
+            <div class = "page2_paragraph2">
+                    Duis risus urna, mattis eget justo non, gravida ultrices diam</div>
+        </div>
+        <div class = "line2"></div>
+        <form class="page2">
+            <div class="p2_steps">
+                <ul>
+                    <li><span class="p2_step1">1</span></li>
+                    <li><span class="p2_step2">2</span></li>
+                    <li><span class="p2_step3">3</span></li>
+                </ul>
+                <div class="line2_circle">
+                    <div class="line2_between"></div>
+                </div>
+            </div>
+            <fieldset class="page2_form">
+                <header class="your_donation"><b>Your donation</b></header>
+                <div class="field_border">
+                <div class="card_choice">
+                    <button class="payPal"><b>PayPal</b></button>
+                    <button class="creditCard"><b>Credit Card</b></button>
+                </div>
+                    <div class="donation_field">
+                        <label>
+                            <span>Donation Amount*</span><br>
+                            <input class="align1" type="text" name="donationAmount" value=""><br>
+                        </label>
+                        <label>
+                            <span>Card Holder Name*</span><br>
+                            <input class="align2" type="text" name="holderName" value=""><br>
+                        </label>
+                        <label>
+                        <span>Credit Card No*</span><br>
+                        <input class="align2" type="text" name="creditNumber" value=""><br>
+                        </label>
+                        <label>
+                            <span>Card Security Code*</span><br>
+                                <input class="align1" type="text" name="securityCode" value=""><br>
+                                 </label>
+                        <div class="card_position">
+                            <div class="card-detail">
+                                 <label>
+                                <span>Expiry Date*</span><br>
+                                <input class="align1" type="text" name="expiryDate" value=""><br>
+                                </label>
+                            </div>
+                            <div class="card_logo">
+                                <img src="images/visa%20master%20card.PNG">
+                            </div>
+                       </div>
+                </div>
+                 </div>
+            </fieldset>
+                <div class="button_choice">
+                    <div>
+                        <button class="back pull-left">Back</button>
+                    </div>
+                    <div>
+                        <button class="proceed pull-right">Proceed</button>
+                    </div>
+                </div>
+        </form>
+    </section>
+    <footer class="p2_footer">
+
+    </footer>

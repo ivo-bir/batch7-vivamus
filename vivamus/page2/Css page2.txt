@@ -1,0 +1,165 @@
+section.second_sec{
+    text-align: center;
+}
+div.page2_paragraph{
+    color: #2CA8C8;
+    font-family: Calibri;
+}
+div.page2_paragraph1{
+    font-size: 70px;
+
+}
+div.page2_paragraph2 {
+    font-size: 45px;
+}
+div.line2 {
+    border: solid 1px #c1c1c1;
+    width: 75%;
+    margin: auto;
+}
+form.page2{
+    margin: auto;
+    width: 70%;
+}
+div.p2_steps ul{
+    display: flex;
+    list-style: none;
+}
+
+div.p2_steps ul li{
+    width: 100%;
+}
+.p2_step1{
+    background-color: white;
+}
+
+.p2_step2{
+    align-items: center;
+    display: grid !important;
+    margin: auto;
+    background-color: #2CA8C8;
+}
+
+.p2_step3{
+    align-items: center;
+    display: grid !important;
+    float: right;
+    background-color: white;
+}
+div.p2_steps ul li span{
+    border: solid 5px #c1c1c1;
+    border-radius: 50%;
+    display: table-cell;
+    height:80px;
+    vertical-align: middle;
+    width: 80px;
+}
+div.line2_circle{
+
+    position: absolute;
+    display: grid;
+    top: 37px;
+    left: 74px;
+    right: 31px;
+    bottom: 0;
+    z-index: -1;
+}
+div.p2_steps{
+    position: relative;
+    z-index: 1;
+}
+div.line2_between {
+    background-color: #c1c1c1;
+    height: 10px;
+}
+fieldset.page2_form{
+    background-color: #c1c1c1;
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+    color: #2CA8C8;
+    font-size: 20px;
+}
+div.field_border{
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: white;
+    margin: 1%;
+}
+header.your_donation{
+    font-size: 25px;
+}
+fieldset.page2_form input{
+    border-radius: 6px;
+    background-color: #c1c1c1;
+}
+div.card_choice{
+    display: flex;
+}
+div.card_choice button{
+    width: 100%;
+    border-radius: 6px;
+    height: 60px;
+    border: none;
+}
+button.payPal{
+    color: white;
+    background-color: #2CA8C8;
+}
+button.creditCard{
+    color: #2CA8C8;
+    background-color: white;
+}
+div.donation_field{
+    margin: 2%;
+}
+div.donation_field input{
+    height: 35px;
+}
+input.align1{
+    width: 50%;
+    border: none;
+}
+input.align2{
+    width: 100%;
+    border: none;
+}
+div.card_position{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+div.card_logo, div.card-detail, div.card-detail input{
+    width: 100%;
+}
+div.card_logo img{
+    float: right;
+}
+div.button_choice div button{
+    margin-top: 1%;
+    width: 30%;
+    border-radius: 7px;
+    height: 45px;
+    color: white;
+    background-color: #2CA8C8;
+    border: none;
+}
+div.button_choice{
+    display: flex;
+}
+div.button_choice div{
+    width: 100%;
+}
+.pull-left {
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+
+footer.p2_footer{
+    border: solid 10px #c1c1c1;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}

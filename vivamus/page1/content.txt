@@ -1,0 +1,44 @@
+ <!--<section class = "first_sec">
+        <div class="page1_paragraph">
+            <div class = "first_paragraph"><b>In euismod sapien eu maximus tempus</b></div>
+            <div class = "second_paragraph">
+                Vestibullum bibendum posuere dui,in paretra est hendrerit ac.<br>Integer posuere metus lacus</div>
+         </div>
+            <div class = "line"></div>
+        <form>
+            <div class="steps">
+                    <ul>
+                        <li><span class="step1">1</span></li>
+                        <li><span class="step2">2</span></li>
+                        <li><span class="step3">3</span></li>
+                    </ul>
+                <div class="line_circle">
+                    <div class="line_between"></div>
+                </div>
+            </div>
+
+
+            <fieldset class="info_boutU">
+                <header class="about_you"><b>About you</b></header>
+                <div class="info_field">
+                    <label class="first_name">
+                        <span>First Name*</span>
+                            <input type="text" name="firstName" value=""><br>
+                    </label>
+                    <label>
+                        <span class="last_name">Last Name*</span>
+                            <input type="text" name="lastName" value=""><br>
+                    </label>
+                </div>
+                <label>
+                <span>Email Address*</span>
+                        <input type="text" name="lastName" value=""><br>
+                </label>
+                <label>
+                    <span>Mobile Number*</span>
+                        <input type="text" name="mobileNumber" value=""><br>
+                </label>
+            </fieldset>
+                <button class="next">Next</button>
+        </form>
+    </section>-->

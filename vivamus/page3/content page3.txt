@@ -1,0 +1,43 @@
+ <section class = "third_sec">
+            <div class="page3_paragraph">
+                <div class = "page3_paragraph1"><b>In euismod sapien eu maximus tempus</b></div>
+                <div class = "page3_paragraph2">
+                    Vestibullum bibendum posuere dui,in paretra est hendrerit ac.<br>Integer posuere metus lacus</div>
+            </div>
+            <div class = "line3"></div>
+                <form class="page3">
+                    <div class="p3_steps">
+                        <ul>
+                            <li><span class="p3_step1">1</span></li>
+                            <li><span class="p3_step2">2</span></li>
+                            <li><span class="p3_step3">3</span></li>
+                        </ul>
+                    <div class="line3_circle">
+                        <div class="line3_between"></div>
+                    </div>
+                    </div>
+                    <fieldset class="page3_form">
+                        <header class="comment_field"><b>Comment Field</b></header>
+                        <div id="border3">
+                            <div class="your_message">
+                                <span>Your Message</span><br>
+                                <textarea id="text_input"></textarea>
+                            </div>
+                            <div id="align_check">
+                                <div>
+                                    <input id="check" type="checkbox" value="">
+                                </div>
+                                <div id="anonymous">Keep me anonymous</div>
+                            </div>
+                         </div>
+                     </fieldset>
+                    <div class="button_choice3">
+                        <div>
+                            <button class="back3 pull-left">Back</button>
+                        </div>
+                        <div>
+                            <button class="finish pull-right">Finish</button>
+                        </div>
+                    </div>
+                </form>
+    </section>
